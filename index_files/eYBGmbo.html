@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://cdpn.io/chompskihonk/fullpage/eYBGmbo -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - A Weather App Using An API</title>
+  
+  
+  
+  
+<style>
+h1, h2,h3,span{
+  marign: 0;
+}
+h1{
+  font-size:16rem;
+  margin-top: 3rem;
+}
+h2{
+  font-size:3rem;
+}
+h3{
+  font-size:1.4rem;
+  
+}
+span{
+  font-size:8rem;
+}
+
+.container{
+  max-width: 550px;
+  height: 100vh;
+  border:1px solid black;
+  margin:0 auto;
+  display: grid;
+ grid-template-rows:20% 80%; 
+  text-align: center;
+  padding: 25px 5px;
+}
+.degrees{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  margin-left: 2rem;
+  
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no">
+  <div class="container">
+ <h2 id="city">Leeds</h2>
+  <div class="middle">
+    <img src="https://cdpn.io/chompskihonk/fullpage/eYBGmbo" alt="icon" id="icon">
+    <div class="degrees">
+      <h1 id="temp">19</h1>
+      <span>°</span>
+    </div>
+    <h3 id="desc">Sunny</h3>
+  </div>
+</div>
+  
+  
+  
+  
+
+
+
+
+ 
+</body></html>
