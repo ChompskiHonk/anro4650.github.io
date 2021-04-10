@@ -1,8 +1,13 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Robert Andrews",
+	"description": "This project was instructed by the professor for my CS 355 class via zybooks to give us an opportunity to learn new things.",
+	"keywords": [ "Learning", "Educational", "Tnstructional", "Practice", "Assignment" ],
+	"version": "1.0",
+	"license": "QC",
 	"dependencies": {
-		"express": "^4.14.0"
+		"package-name": "version",
+		"express": "2.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
