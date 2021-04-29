@@ -27,10 +27,7 @@ app.listen(port, function() {
 
 const mongoString = `mongodb+srv://ChompskyHonk:FRUITATA@cluster0.jqztq.mongodb.net/Cluster0?retryWrites=true&w=majority`;
 
-mongoose.connect(
-	mongoString,
-	{ useNewUrlParser: true, useUnifiedTopology: true }
-);
+mongoose.connect(mongoString,{ useNewUrlParser: true, useUnifiedTopology: true });
 
 mongoose.connection.on('error', function(error) {
 	console.log(error);
@@ -38,7 +35,7 @@ mongoose.connection.on('error', function(error) {
 mongoose.connection.on('open', function() {
 	console.log('Connected to MongoDB database.');
 });
-/* Create URL Model */
+
 let urlSchema = new mongoose.Schema({
 	original: { type: String, required: true },
 	short: Number
@@ -46,20 +43,17 @@ let urlSchema = new mongoose.Schema({
 
 let Url = mongoose.model('Url', urlSchema);
 
-/* Getting the URL input parameter */
+
 let bodyParser = require('body-parser');
 
 let responseObject = {};
 
 app.post(
 	'/api/shorturl',
-	bodyParser.urlencoded({ extended: false }),
-	(request, response) => {
+	bodyParser.urlencoded({ extended: false }),(request, response) => {
 		let inputUrl = request.body['url'];
 
-		let urlRegex = new RegExp(
-			/(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})/gi
-		);
+		let urlRegex = new RegExp(/^[http://www.]/gi);
 
 		if (!inputUrl.match(urlRegex)) {
 			response.json({ error: 'Invalid URL' });
