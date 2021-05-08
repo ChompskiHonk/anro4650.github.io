@@ -1,18 +1,70 @@
-
-<!DOCTYPE html>
-<html><head>
-<title>CS 355 Home Page</title>
- <link rel="stylesheet" href="styles.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <script src="Script1.js"></script>
+<!DOCTYPE html >
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Adding a course here......</title>
+    <link rel="stylesheet" href="../courseSetUp/courseSetUp.css">
+    <!-- make resposible page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-    <div class="topnav" id="Topnav">
-        <a href="#" class="active">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="about.html">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myfunction()"><i class="fa f-bars"></i></a>
-    </div> 
-    <div><h1>This is my home page for CS 355</h1></div>
+<div class="container">
+
+    <section id="topbar">
+        <div class="logo"><img src="../courseSetUp/temperary logo.jpg" alt="logo"></div>
+        <div class="welcome"><h1>Welcome to Course Set-Up</h1></div>
+
+    </section>
+
+    <section id="leftbar">
+        <div class="sidebar">
+            <header><img src="../courseSetUp/small Q.png" alt="samllQ"> Menu</header>
+            <ul>
+                <li><a href="https://sheisol310.github.io/qcFirst-Web/course%20management/course%20management.html"><i class="menu course-manage"></i>Course Management</a></li>
+                <li><a href="../index.html"><i class="mebu home-link"></i>Home</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="mainbar">
+        <div class="studentInfo">
+            <div>Hi, Professor: Wallace Wells. </div>
+            <div>Today is : <span id="datetime"></span></div>
+        </div>
+        <img class="background" src="../courseSetUp/campus pic.jpg" alt="">
+        <div class="course_list">
+            <div class="course-container">
+                <h2>Course Set-Up: </h2>
+                <div class="create">
+                    <label for="courseName" class="courseOp">Course Name:</label>
+                    <input type="text" id="courseName" class="courseOp" size="40px">
+                    <label for="courseId" class="courseOp">Course ID:</label>
+                    <input type="text" id="courseId" class="courseOp">
+                    <label for="semesTer" class="courseOp">Semester:</label>
+                    <input type="text" id="semesTer" class="courseOp">
+                    <label for="dept" class="courseOp">Department:</label>
+                    <input type="text" id="dept" class="courseOp">
+                    <label for="instr" class="courseOp">Instructors:</label>
+                    <input type="text" id="instr" class="courseOp">
+                    <!-- Drop down menu for schedule?-->
+                    <label for="sched" class="courseOp">Schedule:</label>
+                    <input type="text" id="sched" class="courseOp">
+                    <label for="cap" class="courseOp">Capacity:</label>
+                    <input type="text" id="cap" class="courseOp">
+                    <label for="deadLine" class="courseOp">Enrollment Deadline:</label>
+                    <input type="text" id="deadLine" class="courseOp">
+                    <label for="desc" class="courseOp">Description:</label>
+                    <input type="text" id="desc" class="courseOp">
+                    <input type="button" id="addCourse" value="Add Course">
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div><!--end of container-->
+
+<script src="../courseSetUp/courseSetUp_script.js"></script>
+
 </body>
 </html>
