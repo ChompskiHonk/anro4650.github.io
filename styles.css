@@ -23,7 +23,7 @@
 .topnav .icon{
     display: none;
 }
-.container{
+div.container{
     width: 100%;
     height: 100vh;
     backgroung-image: url(sweetbackgroundpic.jpg);
