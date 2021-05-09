@@ -11,20 +11,20 @@
 .topnav a {
         float: left;
         display: block;
-        color: dodgerblue;
+        color: #129096;
         text-align: center;
         padding: 14px 16px;
         font-size: 20px;
         text-decoration:none;
  }
 .topnav a:hover{
-    background-color:dodgerblue;
+    background-color:#73a4bf;
     color: white;
 }
 
 .topnav a.active{
-    background-color:lightsteelblue;
-    color:black;
+    background-color:#84bfe7;
+    color:#ffe9e9;
 }
 .topnav .icon{
     display: none;
@@ -75,4 +75,5 @@ div p{
         text-align: left;
     }
 }
+
 
