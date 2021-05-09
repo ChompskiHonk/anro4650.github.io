@@ -47,10 +47,11 @@ div.container{
     color: #56bfc4;
 }
 div h1{
-    font-size: 95px;
+    font-size: 100px;
 }
 div p{
-    font-size: 14px;
+    font-size: 11px;
+    line-height: 15px;
 }
 @media screen and (max-width: 600px){
     .topnav a:not(:first-child) {display: none;}
