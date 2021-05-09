@@ -48,10 +48,14 @@ div.container{
 }
 div h1{
     font-size: 85px;
+    margin-left: 30px;
+    margin-right: 10px;
 }
 div p{
     font-size: 22px;
     line-height: 22px;
+    margin-left: 10px;
+    margin-right: 30px;
 }
 
 
