@@ -23,7 +23,13 @@
 .topnav .icon{
     display: none;
 }
-
+.container{
+    width: 100%;
+    height: 100vh;
+    backgroung-image: url(sweetbackgroundpic.jpg);
+    background-position: center;
+    background-size: cover;
+}
 @media screen and (max-width: 600px){
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon{
