@@ -1,6 +1,5 @@
 *{
     font-family: 'Roboto', sans-seriff;
-    color: white;
 }
 
 .topnav{
@@ -35,6 +34,10 @@ div.container{
     background-position: center;
     background-size: cover;
 }
+.welcome, .tutorial{
+    color: white;
+}
+
 @media screen and (max-width: 600px){
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon{
