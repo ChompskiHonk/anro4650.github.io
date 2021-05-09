@@ -44,10 +44,13 @@ div.container{
 
 .text{
     flex-basis:50%;
-    color: white;
+    color: #56bfc4;
 }
 div h1{
     font-size: 95px;
+}
+div p{
+    font-size: 14px;
 }
 @media screen and (max-width: 600px){
     .topnav a:not(:first-child) {display: none;}
