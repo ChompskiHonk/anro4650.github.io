@@ -1,11 +1,11 @@
 ## anro4650.github.io
 This site is used to showcase what I have learned in my CS 355 course, utilizing langages and tools such as...
--HTML Markup
--CSS coding
--JavaScript coding
--Using MongoDB
--Using mySQL
--Creating Schemas and Databases
+  -HTML Markup
+  -CSS coding
+  -JavaScript coding
+  -Using MongoDB
+  -Using mySQL
+  -Creating Schemas and Databases
 
 
 This course has certainly been rigorous, but more importantly educational.
