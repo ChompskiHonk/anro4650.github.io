@@ -42,26 +42,25 @@ div.container{
     align-items: center;
 }
 
-.text{
-    flex-basis:50%;
-    color: #ffffff;
-}
+
 div h1{
-    font-size: 85px;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 div p{
-    font-size: 22px;
+    font-size: 17px;
     line-height: 22px;
 }
 
 
 @media screen and (max-width: 600px){
     div h1{
-        font-size: 45px;
+        font-size: 25px;
     }
     div p{
-    font-size: 17px;
-    line-height: 17px;
+    font-size: 16px;
+    line-height: 16px;
     }
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon{
