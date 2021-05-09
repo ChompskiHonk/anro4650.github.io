@@ -1,5 +1,5 @@
 ## anro4650.github.io
-###This site is used to showcase what I have learned in my CS 355 course, utilizing langages and tools such as...
+### This site is used to showcase what I have learned in my CS 355 course, utilizing langages and tools such as...
 
   -HTML Markup
   
