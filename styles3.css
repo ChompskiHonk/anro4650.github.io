@@ -11,20 +11,20 @@
 .topnav a {
         float: left;
         display: block;
-        color: #129096;
+        color: #b21da2;
         text-align: center;
         padding: 14px 16px;
         font-size: 20px;
         text-decoration:none;
  }
 .topnav a:hover{
-    background-color:#73a4bf;
+    background-color:#f7447c;
     color: white;
 }
 
 .topnav a.active{
-    background-color:#84bfe7;
-    color:#ffe9e9;
+    background-color:#8e234d;
+    color:#f7518f;
 }
 .topnav .icon{
     display: none;
@@ -42,20 +42,23 @@ div.container{
     align-items: center;
 }
 
-.text{
-    flex-basis:50%;
-    color: #ffffff;
-}
 div h1{
     font-size: 85px;
-    margin-left: 30px;
-    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ff70b4;
+}
+div h2{
+    color: #aa4a7d;
+    margin-top:25px;
+    margin-bottom:10px;
 }
 div p{
     font-size: 22px;
-    line-height: 22px;
+    line-height: 26px;
     margin-left: 10px;
     margin-right: 30px;
+    color: white;
 }
 
 
